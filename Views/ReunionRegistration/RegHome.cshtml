@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Registration Home";
+}
+<h2> IDB-BISEW IT Student Association Reunion Program</h2>
+<p>
+    <img src="~/Images/image3.gif" />
+    <img src="~/Images/image.jpg" />
+</p>
+<p>
+    Welcome to our website. Today is @DateTime.Now.ToShortDateString()
+</p>
+<p>
+    <b> Event Name : </b> Reunion Program<br />
+    <b> Event Address : </b> New Vision Information Technology (NVIT), 110 CDA Avenue, Nasirabad, (Opposite CTG Shopping Complex) Chittagong- 4000<br />
+    <b> Event Date : </b> Friday, 02 March 2025<br />
+    <b> Event Start Time : </b> Start from 02:00 PM onwards<br /><br />
+    <b> Please feel free to call me on (+8801747 193 694) or contact by (learnprogramwithfun@gmail.com), if you require any further information. </b>
+</p>
+
+<p>
+    Please click on the link below to tell us that you will join us in this wonderful event.
+<p />
+
+@Html.ActionLink("Go To Registration Page", "RegistrationPage", "ReunionRegistration")
